@@ -112,7 +112,7 @@ int * Merge_Sort(int * arr , int length)
     int * result = Static_Merge_Sort( arr ,length);
 
     //free all the unwanted dynamically allocated memory space
-    //except the one the must been returned
+    //except the one that must been returned
     for(int i = 0 ; i < counter - 1 ; i ++)
     {
         free(Dynamic_Arrays[i]);
