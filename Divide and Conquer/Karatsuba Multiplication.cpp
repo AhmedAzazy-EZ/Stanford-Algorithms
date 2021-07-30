@@ -14,9 +14,7 @@ uint64_t power (uint64_t num , uint64_t expon);
 
 int main()
 {
-    uint64_t lol = 0xFFFFFFFFFFFFFFFF;
     cout<<karatsuba_Multiplication(453,361);
-    cout<<"\n"<<lol;
     return 0;
 }
 
