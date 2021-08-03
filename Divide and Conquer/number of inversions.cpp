@@ -125,5 +125,6 @@ int * NumofInversions(int * arr , int length , int &result)
         free(Dynamic_Arrays[i]);
         Dynamic_Arrays[i] = NULL;
     }
+    counter = 0;
     return sorted;
 }
